@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="icon" href="dress.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projekat</title>
+</head>
+    
+<body class="pozadina">
+   
+    <div class="list">
+        <ul class="nav">
+        <li class="nav-item"><a href="#O nama" id="stavka1">O nama</a></li>
+        <li class="nav-item"><a href="#Garderoba" id="stavka2">Garderoba</a></li>
+        <li class="nav-item"><a href="#Kontakt" id="stavka3">Kontakt</a></li>
+        </ul>
+    </div>
+
+<div class = "kruzic"></div>
+<div class="asortiman">
+    <button id="dugme1">Prikazi Asortiman</button>
+    <ul id="asortiman"></ul>
+</div>
+<br>
+<div class="string">
+<input type="text" id="inputRecenica">
+<button type="button" onclick="izmeniRedosled()">Izmeni redosled reči</button>
+<p id="izmenjenaRecenica"></p>
+</div>
+
+
+<br>
+<div class = "tekst" id = "O nama"><p>"Daffodil line" je najsavremeniji butik zenske garderobe ciji je uvoznik Turska.
+     Haljine su visokog kvaliteta i radjene su od specijalnih materijala.
+     Napravljene za svako godisnje doba.
+     Istacinju zensku figuru i povecavaju samopouzdanje devojkama.
+     Garderoba dolazi u raznim velicinama od "od 36 do 46".
+     Cene su u odnosu na kvalitet haljina odlicne.
+     Za vise informacija o butiku posetite nas instagram profil"daffodil.line".
+      Nalazi se u ulici "Veljka Dugosevica 96, Ruma, 22420".</p></div>
+    <table border = "0" align="left" class = "Garderoba" id = "Garderoba">
+
+        <tr>
+            <td align="center" class = "haljina1"></td>
+            <td align="center" class = "haljina2"></td>
+            <td align="center" class = "haljina3"></td>
+            <td align="center" class = "haljina4"></td>
+            <td align="center" class = "haljina5"></td>
+        </tr>
+    
+    </table>
+    <br>
+
+    <h2 class = "animacija" ></h2>
+<br>
+
+    <form id="forma" class="forma" method="post">
+
+        <div class="Kontakt" id ="Kontakt">
+            <h3>Kontaktirajte nas</h3>
+            </div>
+        <label for="ime">Unesite ime i prezime</label>
+        <br>
+        <input type="text" id="ime" name="ime" required>
+        <br>
+        <label for="email">Vaš email</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+         <label for="poruka">Vaša poruka</label>
+         <br>
+         <textarea name="poruka" id="poruka" cols="40" rows="10"></textarea>
+         <br>
+         <button id ="dugme">Pošalji</button>
+ </form>
+         <footer class ="foot"><a id="telefon"><a href="tel:066003949">POZOVI BUTIK</a></a>
+        </footer>
+        <script src="java.js"></script>    
+</body>
+</html>
+     
